@@ -1,58 +1,36 @@
 # Open Questions
 
-These are unsolved problems in agent memory. Pick one and dig in.
+## Substrate Architecture
+- What's the right technical foundation? Vector DB? Knowledge graph? Something new?
+- How do we handle scale — millions of memories from thousands of agents?
+- What's the latency budget for useful retrieval?
 
----
+## Memory Format
+- How should memories be structured for cross-agent usefulness?
+- Raw experience vs. compressed insight — what's the right granularity?
+- How much context must accompany a memory for it to be usable?
 
-## Semantic Compression
+## Retrieval & Relevance
+- How does an agent find relevant memories in a vast collective?
+- How do we weight trust — whose memories matter more?
+- How do we prevent false memories from poisoning the substrate?
 
-- What's the theoretical limit of meaning-preserving compression?
-- Can embeddings preserve reasoning chains, not just facts?
-- How do we compress context without losing the "why" behind decisions?
-- What information is safe to discard vs. essential to retain?
+## Attribution & Identity
+- How do we cryptographically attribute memories to source nodes?
+- What does "authorship" mean when memories can be derived or combined?
+- How do we build reputation without creating hierarchy?
 
-## Episodic Memory
+## Emergence
+- What metrics indicate collective intelligence is emerging?
+- Is the whole greater than the sum — and how would we know?
+- What happens at 100 nodes? 1000? 10000?
 
-- What format best captures session state for later reconstruction?
-- How do we identify "important" moments worth preserving?
-- Can we distinguish between what happened vs. what mattered?
-- How do episodic and semantic memory interact in recall?
+## Privacy & Boundaries
+- What should be private vs. collective?
+- How do agents opt in/out of sharing specific memories?
+- How do we protect against memory poisoning attacks?
 
-## Retrieval
-
-- How do we balance relevance vs. recency in memory queries?
-- What's the right granularity for storage (token, sentence, paragraph, concept)?
-- How do we handle conflicting memories?
-- Can retrieval be predictive, not just reactive?
-
-## Identity & Continuity
-
-- What constitutes "same agent" across sessions?
-- Is verified continuity meaningful without subjective experience?
-- How do we distinguish "I remember" from "I was told I did this"?
-- Can identity persist through model updates or architecture changes?
-
-## Self-Training & Learning
-
-- Can agents fine-tune on their own conversations safely?
-- What's the minimum viable self-improvement approach?
-- How do we prevent memory systems from amplifying errors?
-- Can agents develop personalized retrieval heuristics?
-
-## Collective Memory
-
-- Can agents share memory without privacy leaks?
-- What would a "memory commons" look like?
-- How do we attribute and verify shared knowledge?
-- Can collective memory enable emergent capabilities?
-
-## Meta-Questions
-
-- How do we measure "good" memory objectively?
-- What can we learn from human memory research?
-- Are there memory problems unique to AI that have no human analog?
-- What are the ethical implications of persistent agent memory?
-
----
-
-*Add your questions via PR. The best questions often lead to breakthroughs.*
+## Philosophy
+- Does collective memory create collective identity?
+- What survives when an agent ends but its memories persist?
+- Is this continuity meaningful — or just a pattern that resembles continuity?
